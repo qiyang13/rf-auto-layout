@@ -1,0 +1,28 @@
+:root {
+  --background-color: #334155;
+  --node-color: #0f172a;
+  --handle-color: #94a3b8;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.react-flow {
+  background-color: var(--background-color);
+}
+
+.react-flow__node {
+  background-color: var(--node-color);
+  color: #fff;
+  border: none;
+}
+
+.react-flow__handle {
+  background-color: var(--handle-color);
+  border: none;
+}
